@@ -26,8 +26,8 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import org.springframework.security.web.util.matcher.RequestMatcher;
 import org.springframework.stereotype.Service;
 
-import com.qingshixun.project.crm.model.Constants;
-import com.qingshixun.project.crm.model.ResourceModel;
+import web.crm.project.model.model.Constants;
+import web.crm.project.model.model.ResourceModel;
 
 /**
  * 用户自行实现从数据库或其它地方查询URL-授权关系定义.

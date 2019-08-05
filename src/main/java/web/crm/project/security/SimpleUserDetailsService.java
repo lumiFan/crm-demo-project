@@ -20,10 +20,10 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
-import com.qingshixun.project.crm.model.Constants;
-import com.qingshixun.project.crm.model.RoleModel;
-import com.qingshixun.project.crm.model.UserModel;
-import com.qingshixun.project.crm.module.user.service.UserService;
+import web.crm.project.model.model.Constants;
+import web.crm.project.model.model.RoleModel;
+import web.crm.project.model.model.UserModel;
+import web.crm.project.model.module.user.service.UserService;
 
 /**
  * 根据用户登录名获取用户及用户授权信息

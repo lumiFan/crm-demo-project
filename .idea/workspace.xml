@@ -2,29 +2,142 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83eac169-daa5-48c4-a86c-cfa439a3870c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/index/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/index/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/login/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/login/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/login/dao/LoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/login/dao/LoginDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/login/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/login/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/menu/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/menu/controller/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/menu/dao/MenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/menu/dao/MenuDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/menu/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/menu/service/MenuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/resource/controller/ResourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/resource/controller/ResourceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/resource/dao/ResourceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/resource/dao/ResourceDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/resource/service/ResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/resource/service/ResourceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/role/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/role/controller/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/role/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/role/dao/RoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/role/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/role/service/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/user/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/user/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/security/RoleResourceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/security/RoleResourceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/security/SecurityHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/security/SecurityHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/security/SimpleSecurityMetadataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/security/SimpleSecurityMetadataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/security/SimpleUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/security/SimpleUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/img/add.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/img/add.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/img/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/img/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/img/alpha.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/img/alpha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/img/clear.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/img/clear.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/img/hue.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/img/hue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/img/leads_Map.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/img/leads_Map.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/img/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/img/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/img/mappin-default.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/img/mappin-default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/img/mybg.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/img/mybg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/img/select2-spinner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/img/select2-spinner.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/img/sort_asc.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/img/sort_asc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/img/sort_asc_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/img/sort_asc_disabled.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/img/sort_both.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/img/sort_both.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/img/sort_desc.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/img/sort_desc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/img/sort_desc_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/img/sort_desc_disabled.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/js/china-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/china-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/js/paging-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/paging-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/WdatePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/WdatePicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/bootstrap-toastr/toastr.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/bootstrap-toastr/toastr.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/bootstrap-toastr/toastr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/bootstrap-toastr/toastr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/bootstrap-toastr/toastr.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/bootstrap-toastr/toastr.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/bootstrap/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/bootstrap/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/chart/Chart.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/chart/Chart.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datatables/DT_bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/DT_bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datatables/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/jquery.dataTables.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datePicker/WdatePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/datePicker/WdatePicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datePicker/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/datePicker/calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datePicker/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/datePicker/lang/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datePicker/lang/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/datePicker/lang/zh-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datePicker/lang/zh-tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/datePicker/lang/zh-tw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datePicker/skin/WdatePicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/datePicker/skin/WdatePicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datePicker/skin/datePicker.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/datePicker/skin/datePicker.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datePicker/skin/default/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/datePicker/skin/default/datepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datePicker/skin/default/img.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/datePicker/skin/default/img.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/highmaps/highmaps.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/highmaps/highmaps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jquery-2.0.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/jquery-2.0.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jquery-confirm/jquery-confirm.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/jquery-confirm/jquery-confirm.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jquery-confirm/jquery-confirm.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/jquery-confirm/jquery-confirm.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jquery-nestable/jquery.nestable.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/jquery-nestable/jquery.nestable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jquery-ui-1.10.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.10.3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jquery-validate/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/jquery-validate/jquery.validate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jquery.form.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/jquery.form.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jstree/jstree.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/jstree/jstree.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jstree/themes/default/32px.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/jstree/themes/default/32px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jstree/themes/default/40px.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/jstree/themes/default/40px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jstree/themes/default/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/jstree/themes/default/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jstree/themes/default/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/jstree/themes/default/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jstree/themes/default/throbber.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/jstree/themes/default/throbber.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/modules/canvas-tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/modules/canvas-tools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/modules/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/modules/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/modules/drilldown.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/modules/drilldown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/modules/exporting.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/modules/exporting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/modules/heatmap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/modules/heatmap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/modules/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/modules/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nestable/jquery.nestable.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/nestable/jquery.nestable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nestable/jquery.nestable.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/nestable/jquery.nestable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/.jshintrc" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/nice-validator/.jshintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/nice-validator/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/nice-validator/images/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/images/validator_default.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/nice-validator/images/validator_default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/images/validator_simple.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/nice-validator/images/validator_simple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/jquery.validator.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/nice-validator/jquery.validator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/jquery.validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/nice-validator/jquery.validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/local/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/nice-validator/local/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/local/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/nice-validator/local/ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/local/zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/nice-validator/local/zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/local/zh-TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/nice-validator/local/zh-TW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/uploadPreview.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/plugins/uploadPreview.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/common/taglibs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/common/taglibs.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/error/404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/error/404.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/error/500.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/error/500.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/upload/1488965705622_857367.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/upload/1488965705622_857367.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/upload/1488965729051_645722.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/upload/1488965729051_645722.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/upload/1488965736672_66298.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/upload/1488965736672_66298.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/upload/1488965744361_788078.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/upload/1488965744361_788078.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/upload/1488965753550_348480.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/upload/1488965753550_348480.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/upload/1488965759865_464281.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/upload/1488965759865_464281.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/upload/1488965767985_226708.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/upload/1488965767985_226708.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/upload/1488965775125_205793.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/upload/1488965775125_205793.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/upload/1488965781195_54978.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/upload/1488965781195_54978.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/upload/1488965790791_533373.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/upload/1488965790791_533373.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/upload/1488965797921_292714.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/upload/1488965797921_292714.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/upload/1488965808235_213832.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/upload/1488965808235_213832.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/upload/1489375495167_835580.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/upload/1489375495167_835580.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/issue/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/issue/list.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,6 +156,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -51,12 +171,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1OxoYrKyT5lUuSj21nErQ8BC0A8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/web/crm/project/core" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -65,12 +188,15 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\JavaCode(new)\crm-demo\web" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\JavaCode(new)\crm-demo\web\WEB-INF\views\campaign" />
+      <recent name="F:\JavaCode(new)\crm-demo\web\WEB-INF\assets\css" />
       <recent name="F:\JavaCode(new)\crm-demo\src\main\java\web\crm\project\core" />
       <recent name="F:\JavaCode(new)\crm-demo\src\main\java\web\crm\project" />
       <recent name="F:\JavaCode(new)\crm-demo\src\main\java\web\crm\project\model" />
-      <recent name="F:\JavaCode(new)\crm-demo\src\main\java\web\crm\project\Controller" />
-      <recent name="F:\JavaCode(new)\crm-demo\web\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -84,6 +210,78 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.8" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/crm_demo/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$">
+          <settings>
+            <option name="CONTEXT_PATH" value="/crm_demo" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_crm-demo" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="13538" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpringGeneralSettings">
     <option name="allowAutoConfigurationMode" value="true" />
@@ -100,8 +298,16 @@
       <updated>1564928658438</updated>
       <workItem from="1564928663217" duration="2241000" />
       <workItem from="1564933341730" duration="209000" />
-      <workItem from="1564965465951" duration="5700000" />
+      <workItem from="1564965465951" duration="13970000" />
     </task>
+    <task id="LOCAL-00001" summary="修改了import">
+      <created>1564972791226</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564972791226</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,5 +325,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="修改了import" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了import" />
   </component>
 </project>

@@ -88,7 +88,7 @@ public class UserService extends BaseService {
     /**
      * 根据用户ID，获取用户信息
      * 
-     * @param userId
+     * @param loginName
      * @return
      */
     public UserModel getUser(String loginName) {
@@ -121,7 +121,7 @@ public class UserService extends BaseService {
     /**
      * 保存用户
      * 
-     * @param userId
+     * @param user
      */
     public void saveUser(UserModel user, String[] selectRoles) {
         // 设置用户初始化状态
@@ -160,7 +160,7 @@ public class UserService extends BaseService {
     /**
      * 修改用户状态用户
      * 
-     * @param user
+     * @param userId
      */
     public void updateUserStatus(Long userId) {
         UserModel user = userDao.get(userId);

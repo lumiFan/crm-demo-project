@@ -21,10 +21,10 @@ import org.springframework.stereotype.Service;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import com.qingshixun.project.crm.model.MenuModel;
-import com.qingshixun.project.crm.model.ResourceModel;
-import com.qingshixun.project.crm.model.RoleModel;
-import com.qingshixun.project.crm.module.role.service.RoleService;
+import web.crm.project.model.model.MenuModel;
+import web.crm.project.model.model.ResourceModel;
+import web.crm.project.model.model.RoleModel;
+import web.crm.project.model.module.role.service.RoleService;
 
 /**
  * 角色资源仓库 类

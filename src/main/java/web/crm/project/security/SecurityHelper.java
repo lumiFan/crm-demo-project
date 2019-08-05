@@ -9,8 +9,6 @@ package web.crm.project.security;
 import org.springframework.security.authentication.encoding.MessageDigestPasswordEncoder;
 import org.springframework.security.authentication.encoding.ShaPasswordEncoder;
 import org.springframework.security.core.context.SecurityContextHolder;
-
-import org.springframework.security.crypto.password.MessageDigestPasswordEncoder;
 import web.crm.project.model.model.UserModel;
 
 /**

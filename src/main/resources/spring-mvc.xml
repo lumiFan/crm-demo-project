@@ -6,7 +6,7 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 
 	<!-- 自动扫描且只扫描 @Controller -->
-	<context:component-scan base-package="com.qingshixun.project" use-default-filters="false">
+	<context:component-scan base-package="web.crm.project" use-default-filters="false">
 		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
 		<context:include-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice" />
 	</context:component-scan>
@@ -44,7 +44,7 @@
 	</bean>
 
 	<!-- 对静态资源文件的访问配置 -->
-	<mvc:resources mapping="/assets/**" location="/assets/" />
+	<mvc:resources mapping="/assets/**" location="WEB-INF/assets" />
 
 	<!-- 容器默认的DefaultServletHandler处理设置，用于处理静态资源 -->
 	<mvc:default-servlet-handler />
