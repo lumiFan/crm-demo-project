@@ -13,9 +13,9 @@ import java.util.Map;
 import org.hibernate.criterion.Criterion;
 import org.springframework.stereotype.Repository;
 
-import com.qingshixun.project.crm.core.BaseHibernateDao;
-import com.qingshixun.project.crm.core.PageContainer;
-import com.qingshixun.project.crm.model.RoleModel;
+import web.crm.project.core.BaseHibernateDao;
+import web.crm.project.core.PageContainer;
+import web.crm.project.model.model.RoleModel;
 
 /**
  * 角色处理 Dao 类

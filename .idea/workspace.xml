@@ -2,243 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83eac169-daa5-48c4-a86c-cfa439a3870c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/Controller/ResponseData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/Controller/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/core/BaseHibernateDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/core/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/core/BaseTransactionalJUnit4SpringContextTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/core/PageContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/BaseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/CampaignModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/CampaignStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/CampaignType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/CategoryModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/CityModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/ContactModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/CustomerModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/CustomerResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/CustomerStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/DepartmentModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/DictionaryModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/Freight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/IssueModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/IssuePriority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/IssueStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/MenuJSON.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/MenuModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/OperateLogModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/OpportunityModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/OpportunityStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/ProblemModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/ProblemStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/ProductModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/ProductStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/ProspectiveModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/ProvinceModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/PurchaseOrderItemModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/PurchaseOrderModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/PurchaseOrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/QuotationItemModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/QuotationModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/QuotationStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/RegionModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/ResourceModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/ResourceTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/RoleModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/SalesOrderItemModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/SalesOrderModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/SalesOrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/SupplierModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/UserModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/UserSettingModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/model/UserStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/index/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/login/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/login/dao/LoginDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/login/service/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/menu/controller/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/menu/dao/MenuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/menu/service/MenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/resource/controller/ResourceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/resource/dao/ResourceDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/resource/service/ResourceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/role/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/role/dao/RoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/role/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/user/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/user/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/user/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/security/RoleResourceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/security/SecurityHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/security/SimpleSecurityMetadataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/security/SimpleUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/security/UserPasswordSaltSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/util/CaptchaUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/util/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/util/GarbledUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/util/ImageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/util/PathUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/util/Poi4Excel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/img/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/img/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/img/alpha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/img/clear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/img/hue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/img/leads_Map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/img/mappin-default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/img/mybg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/img/select2-spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/img/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/img/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/img/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/img/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/img/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/js/china-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/js/paging-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/WdatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/bootstrap-toastr/toastr.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/bootstrap-toastr/toastr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/bootstrap-toastr/toastr.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/bootstrap/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/chart/Chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datatables/DT_bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datatables/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datePicker/WdatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datePicker/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datePicker/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datePicker/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datePicker/lang/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datePicker/skin/WdatePicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datePicker/skin/datePicker.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datePicker/skin/default/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/datePicker/skin/default/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/font-awesome/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/highmaps/highmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jquery-2.0.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jquery-confirm/jquery-confirm.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jquery-confirm/jquery-confirm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jquery-nestable/jquery.nestable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jquery-ui-1.10.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jquery-validate/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jquery.form.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jstree/jstree.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jstree/themes/default/32px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jstree/themes/default/40px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jstree/themes/default/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jstree/themes/default/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/jstree/themes/default/throbber.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/modules/canvas-tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/modules/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/modules/drilldown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/modules/exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/modules/heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/modules/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nestable/jquery.nestable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nestable/jquery.nestable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/images/validator_default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/images/validator_simple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/jquery.validator.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/jquery.validator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/local/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/local/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/local/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/nice-validator/local/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/assets/plugins/uploadPreview.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/common/taglibs.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/error/404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/error/500.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/1488965705622_857367.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/1488965729051_645722.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/1488965736672_66298.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/1488965744361_788078.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/1488965753550_348480.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/1488965759865_464281.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/1488965767985_226708.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/1488965775125_205793.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/1488965781195_54978.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/1488965790791_533373.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/1488965797921_292714.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/1488965808235_213832.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/1489375495167_835580.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/campaign/campaign.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/campaign/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/campaign/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/category/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/category/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/contact/contact.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/contact/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/contact/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/customer/customer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/customer/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/customer/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/dashboard/dashboard.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/department/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/department/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/department/relateRole.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/issue/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/issue/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/menu/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/menu/iconList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/menu/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/menu/menuResource.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/menu/menuResourceList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/navigation/business.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/navigation/menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/opportunity/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/opportunity/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/opportunity/opportunity.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/problem/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/problem/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/product/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/product/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/product/product.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/product/products.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/prospective/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/prospective/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/purchaseorder/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/purchaseorder/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/quotation/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/quotation/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/quotation/quotation.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/role/authorization.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/role/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/role/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/role/resourceTree.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/salesorder/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/salesorder/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/search.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/statistics/prospective.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/supplier/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/supplier/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/supplier/supplier.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/user/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/user/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/user/password.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/crm-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/index/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/index/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/login/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/login/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/login/dao/LoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/login/dao/LoginDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/login/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/login/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/menu/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/menu/controller/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/menu/dao/MenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/menu/dao/MenuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/menu/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/menu/service/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/resource/controller/ResourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/resource/controller/ResourceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/resource/dao/ResourceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/resource/dao/ResourceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/resource/service/ResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/resource/service/ResourceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/role/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/role/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/role/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/role/dao/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/role/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/role/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/user/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/user/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/crm/project/model/module/user/service/UserService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -320,7 +100,7 @@
       <updated>1564928658438</updated>
       <workItem from="1564928663217" duration="2241000" />
       <workItem from="1564933341730" duration="209000" />
-      <workItem from="1564965465951" duration="2174000" />
+      <workItem from="1564965465951" duration="5700000" />
     </task>
     <servers />
   </component>

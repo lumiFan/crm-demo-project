@@ -24,11 +24,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.qingshixun.project.crm.core.PageContainer;
-import com.qingshixun.project.crm.model.UserModel;
-import com.qingshixun.project.crm.module.user.service.UserService;
-import com.qingshixun.project.crm.web.ResponseData;
-import com.qingshixun.project.crm.web.controller.BaseController;
+import web.crm.project.core.PageContainer;
+import web.crm.project.model.model.UserModel;
+import web.crm.project.model.module.user.service.UserService;
+import web.crm.project.Controller.ResponseData;
+import web.crm.project.Controller.controller.BaseController;
 
 /**
  * 用户处理 Controller 类

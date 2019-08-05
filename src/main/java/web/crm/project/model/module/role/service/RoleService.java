@@ -21,16 +21,16 @@ import org.springframework.stereotype.Service;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.qingshixun.project.crm.core.BaseService;
-import com.qingshixun.project.crm.core.PageContainer;
-import com.qingshixun.project.crm.model.MenuModel;
-import com.qingshixun.project.crm.model.ResourceModel;
-import com.qingshixun.project.crm.model.ResourceTree;
-import com.qingshixun.project.crm.model.RoleModel;
-import com.qingshixun.project.crm.model.State;
-import com.qingshixun.project.crm.module.menu.dao.MenuDao;
-import com.qingshixun.project.crm.module.role.dao.RoleDao;
-import com.qingshixun.project.crm.util.DateUtils;
+import web.crm.project.core.BaseService;
+import web.crm.project.core.PageContainer;
+import web.crm.project.model.model.MenuModel;
+import web.crm.project.model.model.ResourceModel;
+import web.crm.project.model.model.ResourceTree;
+import web.crm.project.model.model.RoleModel;
+import web.crm.project.model.model.State;
+import web.crm.project.model.module.menu.dao.MenuDao;
+import web.crm.project.model.module.role.dao.RoleDao;
+import web.crm.project.util.DateUtils;
 
 /**
  * 角色处理 Service 类

@@ -11,9 +11,9 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.qingshixun.project.crm.core.BaseService;
-import com.qingshixun.project.crm.model.ResourceModel;
-import com.qingshixun.project.crm.module.resource.dao.ResourceDao;
+import web.crm.project.core.BaseService;
+import web.crm.project.model.model.ResourceModel;
+import web.crm.project.model.module.resource.dao.ResourceDao;
 
 /**
  * 资源处理 Service 类

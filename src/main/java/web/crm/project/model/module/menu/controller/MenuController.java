@@ -23,12 +23,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.qingshixun.project.crm.model.MenuModel;
-import com.qingshixun.project.crm.model.ResourceModel;
-import com.qingshixun.project.crm.module.menu.service.MenuService;
-import com.qingshixun.project.crm.module.resource.service.ResourceService;
-import com.qingshixun.project.crm.web.ResponseData;
-import com.qingshixun.project.crm.web.controller.BaseController;
+import web.crm.project.model.model.MenuModel;
+import web.crm.project.model.model.ResourceModel;
+import web.crm.project.model.module.menu.service.MenuService;
+import web.crm.project.model.module.resource.service.ResourceService;
+import web.crm.project.Controller.ResponseData;
+import web.crm.project.Controller.controller.BaseController;
 
 /**
  * 菜单处理 Controller 类

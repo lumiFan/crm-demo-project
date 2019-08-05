@@ -17,12 +17,12 @@ import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.qingshixun.project.crm.core.BaseService;
-import com.qingshixun.project.crm.model.MenuJSON;
-import com.qingshixun.project.crm.model.MenuModel;
-import com.qingshixun.project.crm.model.ResourceModel;
-import com.qingshixun.project.crm.module.menu.dao.MenuDao;
-import com.qingshixun.project.crm.module.resource.dao.ResourceDao;
+import web.crm.project.core.BaseService;
+import web.crm.project.model.model.MenuJSON;
+import web.crm.project.model.model.MenuModel;
+import web.crm.project.model.model.ResourceModel;
+import web.crm.project.model.module.menu.dao.MenuDao;
+import web.crm.project.model.module.resource.dao.ResourceDao;
 
 /**
  * 菜单处理 Service 类

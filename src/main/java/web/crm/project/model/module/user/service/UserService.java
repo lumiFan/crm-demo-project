@@ -19,15 +19,15 @@ import org.springframework.security.authentication.encoding.ShaPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.google.common.collect.Lists;
-import com.qingshixun.project.crm.core.BaseService;
-import com.qingshixun.project.crm.core.PageContainer;
-import com.qingshixun.project.crm.model.MenuModel;
-import com.qingshixun.project.crm.model.RoleModel;
-import com.qingshixun.project.crm.model.UserModel;
-import com.qingshixun.project.crm.model.UserStatus;
-import com.qingshixun.project.crm.module.role.dao.RoleDao;
-import com.qingshixun.project.crm.module.user.dao.UserDao;
-import com.qingshixun.project.crm.security.RoleResourceRepository;
+import web.crm.project.core.BaseService;
+import web.crm.project.core.PageContainer;
+import web.crm.project.model.model.MenuModel;
+import web.crm.project.model.model.RoleModel;
+import web.crm.project.model.model.UserModel;
+import web.crm.project.model.model.UserStatus;
+import web.crm.project.model.module.role.dao.RoleDao;
+import web.crm.project.model.module.user.dao.UserDao;
+import web.crm.project.security.RoleResourceRepository;
 
 /**
  * 用户处理 Service 类

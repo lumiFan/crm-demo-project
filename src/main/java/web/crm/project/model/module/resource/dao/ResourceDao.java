@@ -8,8 +8,8 @@ package web.crm.project.model.module.resource.dao;
 
 import org.springframework.stereotype.Repository;
 
-import com.qingshixun.project.crm.core.BaseHibernateDao;
-import com.qingshixun.project.crm.model.ResourceModel;
+import web.crm.project.core.BaseHibernateDao;
+import web.crm.project.model.model.ResourceModel;
 
 /**
  * 资源处理 Dao 类

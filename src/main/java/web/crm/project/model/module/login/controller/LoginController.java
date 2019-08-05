@@ -1,9 +1,3 @@
-/*****************************************************************************
- * Copyright (c) 2015, www.qingshixun.com
- *
- * All rights reserved
- *
- *****************************************************************************/
 
 package web.crm.project.model.module.login.controller;
 
@@ -16,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.qingshixun.project.crm.util.CaptchaUtil;
-import com.qingshixun.project.crm.web.ResponseData;
-import com.qingshixun.project.crm.web.controller.BaseController;
+import web.crm.project.util.CaptchaUtil;
+import web.crm.project.Controller.ResponseData;
+import web.crm.project.Controller.controller.BaseController;
 
 /**
  * 登录处理 Controller 类

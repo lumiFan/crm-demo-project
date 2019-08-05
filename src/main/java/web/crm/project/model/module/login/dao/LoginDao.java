@@ -9,8 +9,8 @@ package web.crm.project.model.module.login.dao;
 
 import org.springframework.stereotype.Repository;
 
-import com.qingshixun.project.crm.core.BaseHibernateDao;
-import com.qingshixun.project.crm.model.UserModel;
+import web.crm.project.core.BaseHibernateDao;
+import web.crm.project.model.model.UserModel;
 
 /**
  * 登录处理 Dao 类

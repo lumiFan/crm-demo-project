@@ -16,10 +16,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.qingshixun.project.crm.module.user.service.UserService;
-import com.qingshixun.project.crm.util.GarbledUtil;
-import com.qingshixun.project.crm.util.ImageUtils;
-import com.qingshixun.project.crm.web.controller.BaseController;
+import web.crm.project.model.module.user.service.UserService;
+import web.crm.project.util.GarbledUtil;
+import web.crm.project.util.ImageUtils;
+import web.crm.project.Controller.controller.BaseController;
 
 /**
  * 主界面处理 Controller 类

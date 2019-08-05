@@ -14,8 +14,8 @@ import org.hibernate.criterion.Criterion;
 import org.hibernate.criterion.Order;
 import org.springframework.stereotype.Repository;
 
-import com.qingshixun.project.crm.core.BaseHibernateDao;
-import com.qingshixun.project.crm.model.MenuModel;
+import web.crm.project.core.BaseHibernateDao;
+import web.crm.project.model.model.MenuModel;
 
 /**
  * 菜单处理 Dao 类
